@@ -1,0 +1,4 @@
+mediapipe==0.9.1
+opencv-python==4.5.1.48
+tensorflow==2.5.0
+matplotlib==3.5
