@@ -64,6 +64,5 @@ urllib3==2.2.3
 Werkzeug==3.0.6
 wrapt==1.12.1
 zipp==3.20.2
-
-gunicorn app:app
+gunicorn
 
