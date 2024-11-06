@@ -93,6 +93,10 @@ def send_otp():
 
     return jsonify({"message": "OTP sent to email"}), 200
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "Server started"}), 200
+
 @app.route('/verify_otp', methods=['POST'])
 def verify_otp():
     data = request.get_json()
